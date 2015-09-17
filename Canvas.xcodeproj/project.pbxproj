@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		01CB634E1BAB4BE900F7C1EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB634D1BAB4BE900F7C1EE /* main.m */; };
 		01CB63511BAB4BE900F7C1EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB63501BAB4BE900F7C1EE /* AppDelegate.m */; };
-		01CB63541BAB4BE900F7C1EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB63531BAB4BE900F7C1EE /* ViewController.m */; };
 		01CB63571BAB4BE900F7C1EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CB63551BAB4BE900F7C1EE /* Main.storyboard */; };
 		01CB63591BAB4BE900F7C1EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01CB63581BAB4BE900F7C1EE /* Assets.xcassets */; };
 		01CB635C1BAB4BE900F7C1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01CB635A1BAB4BE900F7C1EE /* LaunchScreen.storyboard */; };
+		01CB63681BAB4FED00F7C1EE /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB63671BAB4FED00F7C1EE /* CanvasViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		01CB634D1BAB4BE900F7C1EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01CB634F1BAB4BE900F7C1EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01CB63501BAB4BE900F7C1EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		01CB63521BAB4BE900F7C1EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		01CB63531BAB4BE900F7C1EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		01CB63561BAB4BE900F7C1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01CB63581BAB4BE900F7C1EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01CB635B1BAB4BE900F7C1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01CB635D1BAB4BE900F7C1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CB63661BAB4FED00F7C1EE /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		01CB63671BAB4FED00F7C1EE /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,8 @@
 			children = (
 				01CB634F1BAB4BE900F7C1EE /* AppDelegate.h */,
 				01CB63501BAB4BE900F7C1EE /* AppDelegate.m */,
-				01CB63521BAB4BE900F7C1EE /* ViewController.h */,
-				01CB63531BAB4BE900F7C1EE /* ViewController.m */,
 				01CB63551BAB4BE900F7C1EE /* Main.storyboard */,
+				01CB63691BAB4FF500F7C1EE /* View Controllers */,
 				01CB63581BAB4BE900F7C1EE /* Assets.xcassets */,
 				01CB635A1BAB4BE900F7C1EE /* LaunchScreen.storyboard */,
 				01CB635D1BAB4BE900F7C1EE /* Info.plist */,
@@ -77,6 +76,15 @@
 				01CB634D1BAB4BE900F7C1EE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01CB63691BAB4FF500F7C1EE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01CB63661BAB4FED00F7C1EE /* CanvasViewController.h */,
+				01CB63671BAB4FED00F7C1EE /* CanvasViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01CB63541BAB4BE900F7C1EE /* ViewController.m in Sources */,
 				01CB63511BAB4BE900F7C1EE /* AppDelegate.m in Sources */,
 				01CB634E1BAB4BE900F7C1EE /* main.m in Sources */,
+				01CB63681BAB4FED00F7C1EE /* CanvasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
